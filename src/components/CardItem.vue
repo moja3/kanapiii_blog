@@ -7,9 +7,6 @@
           <img :src="item.imageSrc" :alt="item.imageAlt" class="card__image" />
         </figure>
       </div>
-      <div class="card__body">
-        <p class="card__text">{{ item.text }}</p>
-      </div>
     </article>
   </RouterLink>
 </template>
